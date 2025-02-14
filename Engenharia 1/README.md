@@ -16,8 +16,7 @@ Vários softwares são criados tentando atingir um certo objetivo para seu públ
 
 ## Exemplos
 
-```
-**_Sistemas Operacionais_**
+**_Sistemas Operacionais:_**
 O custo de um sistema operacional pode ser considerado um trade off, pois se deseja certas ferramentas que um SO gratuito não oferece, você terá que investir em algum como o Windows, por exemplo.
 > O windows possui sua versão gratuita, porém para ter maior acesso, terá que pagar um valor
 
@@ -27,7 +26,7 @@ Possui uma interface mais amigável, exibindo vários ícones, e sua interação
 **Linux:**
 Para algumas tarefas, o Linux precisa que você digite alguns comandos para realizar certas tarefas, mas como ele é mais personalizável do que o Windows.
 
-**_Linguagens de programação_**
+**_Linguagens de programação:_**
 Complexidade entre Python e C, por exemplo. Cada vez que a linguagem fica mais distante da linguagem nativa (hardware), ela acaba se tornando menos complexa, porém mais lenta.
 
 **Python:**
@@ -35,4 +34,3 @@ Para iniciantes, o python é menos complicado que C, mas acaba sendo mais lento.
 
 **C:**
 Linguagem usada para aplicativos relacionados ao hardware.
-```
