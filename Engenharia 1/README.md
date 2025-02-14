@@ -9,3 +9,30 @@ Mesmo que dois códigos distintos cujo propósito é igual, seja um com mais ins
 ## Texto 2
 
 Engenheiros de software visam utilizar ferramentas e processos para que um código consiga continuar a satisfazer a organização, ou seja, eles são responsáveis por manter e atualizar um código para que ele consiga continuar a realizar uma função desejada.
+
+# Trade Off
+
+Vários softwares são criados tentando atingir um certo objetivo para seu público alvo, como um aplicativo para organizar tarefas de uma empresa, todos os aplicativos mais famosos possuem alguma ferramenta que os diferem, dependendo da necessidade da organização eles irão escolher uma delas para implementá-la em sua empresa, esse é o trade off.
+
+## Exemplos
+
+'''
+*** Sistemas Operacionais ***
+O custo de um sistema operacional pode ser considerado um trade off, pois se deseja certas ferramentas que um SO gratuito não oferece, você terá que investir em algum como o Windows, por exemplo.
+> O windows possui sua versão gratuita, porém para ter maior acesso, terá que pagar um valor
+
+**Windows:**
+Possui uma interface mais amigável, exibindo vários ícones, e sua interação não necessita do prompt de comando. Além disso, como possui várias funções, acaba se tornando mais pesado que o Linux.
+
+**Linux:**
+Para algumas tarefas, o Linux precisa que você digite alguns comandos para realizar certas tarefas, mas como ele é mais personalizável do que o Windows.
+
+*** Linguagens de programação ***
+Complexidade entre Python e C, por exemplo. Cada vez que a linguagem fica mais distante da linguagem nativa (hardware), ela acaba se tornando menos complexa, porém mais lenta.
+
+**Python:**
+Para iniciantes, o python é menos complicado que C, mas acaba sendo mais lento.
+
+**C:**
+Linguagem usada para aplicativos relacionados ao hardware.
+'''
