@@ -34,3 +34,7 @@ Para iniciantes, o python é menos complicado que C, mas acaba sendo mais lento.
 
 **C:**
 Linguagem usada para aplicativos relacionados ao hardware.
+
+## Imagem metodologia ágil
+
+![Image](https://github.com/user-attachments/assets/e093b8a0-cdc6-4943-8d1b-3b9e4ca4987a)
