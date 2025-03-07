@@ -38,3 +38,7 @@ Linguagem usada para aplicativos relacionados ao hardware.
 ## Imagem metodologia ágil
 
 ![Image](https://github.com/user-attachments/assets/e093b8a0-cdc6-4943-8d1b-3b9e4ca4987a)
+
+Esta imagem representa uma metodologia ágil, nela é possível notar que em todas as etapas do processo são entregas com uma funcionalidade para o cliente.
+
+Com a metodologia ágil cada entrega possui um valor para o cliente, invés de fornecê-lo com algo útil apenas na última entrega.
