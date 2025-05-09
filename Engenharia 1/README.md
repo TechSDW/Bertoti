@@ -42,3 +42,87 @@ Linguagem usada para aplicativos relacionados ao hardware.
 Esta imagem representa uma metodologia ágil, nela é possível notar que em todas as etapas do processo são entregas com uma funcionalidade para o cliente.
 
 Com a metodologia ágil cada entrega possui um valor para o cliente, invés de fornecê-lo com algo útil apenas na última entrega.
+
+# Exercício 5
+
+## Classe
+
+package Capivaras;
+
+public class Capivara {
+	private static String nome;
+	private String cor;
+	private String acessorio;
+	private double peso;
+	
+	public Capivara(String nome, String cor, String acessorio, double peso) {
+		this.nome = nome;
+		this.cor = cor;
+		this.acessorio = acessorio;
+		this.peso = peso;}
+	
+	public static String getNome() {
+		return nome;}
+	public void setNome(String nome) {
+		this.nome = nome;}
+	
+	public String getCor() {
+		return cor;}
+	public void setCor(String cor) {
+		this.cor = cor;}
+	
+	public String getAcessorio() {
+		return acessorio;}
+	public void setAcessorio(String acessorio) {
+		this.acessorio = acessorio;}
+	
+	public double getPeso() {
+		return peso;}
+	public void setPeso(double peso) {
+		this.peso = peso;}
+}
+
+## Classe estacionamento
+
+package Capivaras;
+
+import java.util.List;
+import java.util.LinkedList;
+
+public class Parque {
+	private List<Capivara> capivaras = new LinkedList<Capivara>();
+	
+	public void addCapivara(Capivara capivara) {
+		capivaras.add(capivara);}
+	
+	public Capivara buscaNome(String nome) {
+		for(Capivara capivara:capivaras) {
+			if(Capivara.getNome().equals(nome)) return capivara;}
+		return null;
+	}
+	
+	public List<Capivara> buscaCor(String cor){
+		List<Capivara> encontrados = new LinkedList<Capivara>();
+		for(Capivara capivara: capivaras) {
+			if(capivara.getCor().equals(cor)) encontrados.add(capivara);}
+		return encontrados;
+	}
+	
+	public List<Capivara> buscaAcessorio(String acessorio){
+		List<Capivara> encontrados = new LinkedList<Capivara>();
+		for(Capivara capivara: capivaras) {
+			if(capivara.getAcessorio().equals(acessorio)) encontrados.add(capivara);}
+		return encontrados;
+	}
+	
+	public List<Capivara> buscaPeso(double peso){
+		List<Capivara> encontrados = new LinkedList<Capivara>();
+		for(Capivara capivara: capivaras) {
+			if(capivara.getPeso() == peso) encontrados.add(capivara);}
+		return encontrados;
+	}
+	
+	public List<Capivara> getCapivara(){
+		return capivaras;
+	}
+}
